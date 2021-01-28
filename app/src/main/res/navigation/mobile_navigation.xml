@@ -28,5 +28,9 @@
             app:popUpToInclusive="true" />
     </fragment>
     <action android:id="@+id/action_global_nav_quote_edit" app:destination="@id/nav_quote_edit" />
-
+    <fragment
+        android:id="@+id/nav_vehicle"
+        android:name="diiage.potherat.demo.demoapp3.ui.vehicle.VehicleFragment"
+        android:label="@string/menu_vehicule"
+        tools:layout="@layout/fragment_vehicle" />
 </navigation>
